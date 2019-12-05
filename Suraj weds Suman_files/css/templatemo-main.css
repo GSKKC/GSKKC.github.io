@@ -129,6 +129,8 @@ position: absolute;
 
 
 .primary-button a {
+  margin-top: 10px;
+  margin-bottom: 10px;
   display: inline-block;
   background-color: #ff7d27;
   padding: 15px 24px;
@@ -442,9 +444,6 @@ section {
   border:4px solid #ff7d27;
 }
 
-.tabgroup div  {
-
-}
 
 .tabgroup p {
   background-color: rgba(0, 0, 0, 0.5);
@@ -529,11 +528,7 @@ section {
 footer {
   text-align: center;
   background-color: #282b2f;
-  padding: 70px 0px;
-}
-
-footer .primary-button {
-  margin-bottom: 30px;
+  color: #ff7d27;
 }
 
 footer ul {
