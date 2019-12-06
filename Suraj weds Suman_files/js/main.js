@@ -94,8 +94,26 @@ function scrollHandler(){
 
 });
 
-
-function countDown(){
+  //Populate Details
+  function populateDetails()
+  {
+    var xhttps=new XMLHttpRequest();
+    xhttps.onreadystatechange = function() {
+      if(this.readyState == 4 && this.status == 200) {
+        getData(this);
+      }
+    };
+    xhttps.open("GET", "./Suraj%20weds%20Suman_files/XmlData/FileData.xml",true);
+    xhttps.overrideMimeType('application/xml');
+    xhttps.send();
+  }
+  function getData(xml)
+  {
+    //et data = xml.responseXML.getElementByTagName("Details");
+    console.log(xml.responseXML);
+    //onsole.log(data);
+  }
+  function countDown(){
 	const second = 1000,
       minute = second * 60,
       hour = minute * 60,
@@ -119,7 +137,7 @@ let countDown = new Date('JAN 17, 2020 16:43:00').getTime(),
       //}
 
     }, second)
-}
+  }
 
   // Get random number between 2 ranges
   function randomNum(m, n) {
@@ -127,7 +145,6 @@ let countDown = new Date('JAN 17, 2020 16:43:00').getTime(),
     n = parseInt(n);
     return Math.floor(Math.random() * (n - m + 1)) + m;
   }
-  
   function heartAnimation() {
     $this = $('.the-heart-welcome-content');
     var heartCount = ($this.width()/50)*5;
@@ -148,5 +165,5 @@ $(this).toggleClass("tiny-heart2");
 }
 });
 	setTimeout(channgeCol, randomNum(1, 10)*300);
-}
+  }
   
