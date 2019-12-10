@@ -119,7 +119,7 @@ function scrollHandler(){
       hour = minute * 60,
       day = hour * 24;
 
-let countDown = new Date('JAN 17, 2020 16:43:00').getTime(),
+let countDown = new Date('JAN 26, 2020 20:10:00').getTime(),
     x = setInterval(function() {
 
       let now = new Date().getTime(),

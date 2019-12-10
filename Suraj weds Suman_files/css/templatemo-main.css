@@ -220,13 +220,13 @@ text-decoration:none;
 .time-content {
   padding-top: 30vh;
   text-align: center;
-  background-image: url(../img/selfie.jpg);
+  background-image: url(../img/clock.jpgs);
 	
 }
 .thanks-content {
   padding-top: 30vh;
   text-align: center;
-  background-image: url(../img/sunset.jpg);
+  background-image: url(../img/end.jpg);
 	min-height:100vh;
 	background-position: left center;
     background-position-x: 17%;
@@ -395,7 +395,7 @@ h4, .h4 {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 8vh;
-  background-image: url(../img/back1.jpg);
+  background-image: url(../img/map.jpg);
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -898,6 +898,7 @@ body.lb-disable-scrolling {
 }
 .home_banner_area .banner_inner .banner_content {
     color: #fff;
+    margin-top: 5%;
 }
 .home_banner_area .banner_inner .banner_content h5 {
     font-size: 14px;
