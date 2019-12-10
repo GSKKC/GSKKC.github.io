@@ -28,7 +28,6 @@ a { color: #f1700a; }
 
 a:hover { color: #f0395f; }
 .thanks{
-position: absolute;
     bottom: 10vw;
     width: 100%;}
 /*----------
@@ -220,14 +219,13 @@ text-decoration:none;
 .time-content {
   padding-top: 30vh;
   text-align: center;
-  background-image: url(../img/clock.jpgs);
+  background-image: url(../img/clock.jpg);
 	
 }
 .thanks-content {
-  padding-top: 30vh;
+  padding-top: 20vh;
   text-align: center;
   background-image: url(../img/end.jpg);
-	min-height:100vh;
 	background-position: left center;
     background-position-x: 17%;
 	background-size:cover;
@@ -1000,7 +998,7 @@ body.lb-disable-scrolling {
 	-webkit-transform: rotate(-10deg); 
 	transform: rotate(-10deg);
 	
-	margin-top:25px;
+	margin-top:40px;
 	margin-bottom:25px;
 }
 #counting{
