@@ -28,6 +28,7 @@ a { color: #f1700a; }
 
 a:hover { color: #f0395f; }
 .thanks{
+position: absolute;
     bottom: 10vw;
     width: 100%;}
 /*----------
@@ -194,8 +195,8 @@ text-decoration:none;
   width: 100%;
   min-height: 100vh;
   background-size: cover;
-	   background-attachment: fixed;
-	       transform: translateZ(0);
+	background-attachment: fixed;
+	transform: translateZ(0);
 }
 .jarallax {
     position: relative;
@@ -223,9 +224,11 @@ text-decoration:none;
 	
 }
 .thanks-content {
-  padding-top: 20vh;
+  color:#fff;
+  padding-top: 30vh;
   text-align: center;
   background-image: url(../img/end.jpg);
+	min-height:100vh;
 	background-position: left center;
     background-position-x: 17%;
 	background-size:cover;
@@ -997,7 +1000,7 @@ body.lb-disable-scrolling {
 	-webkit-transform: rotate(-10deg); 
 	transform: rotate(-10deg);
 	
-	margin-top:40px;
+	margin-top:25px;
 	margin-bottom:25px;
 }
 #counting{
